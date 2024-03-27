@@ -40,14 +40,14 @@ console.log("blogData",updateData)
       )}
 
       <div className="row g-5 mt--15">
-        {BlogData &&
-          selectedGridBlogs.slice(start, end).map((data, index) => (
+        {updateData &&
+          updateData?.data?.slice(start, end).map((data, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12 col-12" key={index}>
               <div className="rbt-card variation-02 rbt-hover">
                 <div className="rbt-card-img">
                   <Link href={`/blog-details/${data.id}`}>
                     <Image
-                      src={data.img}
+                      src={data?.attributes?.Bannerimg1?.data?.attributes?.formats?.small?.url}
                       width={450}
                       height={267}
                       priority
@@ -57,7 +57,7 @@ console.log("blogData",updateData)
                 </div>
                 <div className="rbt-card-body">
                   <h5 className="rbt-card-title">
-                    <Link href={`/blog-details/${data.id}`}>{data.title}</Link>
+                    <Link href={`/blog-details/${data.id}`}>{data?.attributes?.heading}</Link>
                   </h5>
                   <p className="rbt-card-text">{data?.desc}</p>
                   <div className="rbt-card-bottom">

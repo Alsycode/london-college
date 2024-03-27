@@ -1,1 +1,12 @@
-{}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/about-us-02": "pages/about-us-02.js",
+  "/404": "pages/404.js",
+  "/contact": "pages/contact.js",
+  "/blog-grid": "pages/blog-grid.js",
+  "/course-details-2": "pages/course-details-2.js",
+  "/course-card-2": "pages/course-card-2.js",
+  "/": "pages/index.js"
+}

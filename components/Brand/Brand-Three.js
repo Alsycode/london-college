@@ -11,7 +11,7 @@ const BrandThree = () => {
           <div className="row align-items-center" key={index}>
             <div className="col-lg-12">
               <div className="section-title text-center mb--40">
-                <span className="small-title w-600">{data.title}</span>
+                <span className="small-title w-600">Our Top Recruiters</span>
               </div>
               <ul className="brand-list brand-style-3 justify-content-center justify-content-lg-between">
                 {data.brandLogo.map((item, innerIndex) => (

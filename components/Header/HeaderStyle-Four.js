@@ -6,14 +6,14 @@ const HeaderStyleFour = () => {
     <>
       <header className="rbt-header rbt-header-4">
         <div className="rbt-sticky-placeholder"></div>
-        <HeaderTopFour
+        {/* <HeaderTopFour
           bgColor="bg-color-white border-top-bar-primary-color rbt-border-bottom"
           gapSpaceBetween="header-space-betwween"
           container="container-fluid"
           flexDirection=""
           btnClass="rbt-switch-btn btn-gradient btn-xs"
           btnText="Call us now"
-        />
+        /> */}
 
         <HeaderFour
           sticky="bg-color-white header-sticky"

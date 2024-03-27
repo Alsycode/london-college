@@ -20,38 +20,24 @@ const Contact = () => {
                 </div>
                 <div className="inner">
                   <h4 className="title">{data.title}</h4>
-                  {data.numOne !== "" ? (
+                 
                     <p>
                       <Link href={data.numOne}>{data.numOne}</Link>
                     </p>
-                  ) : (
-                    ""
-                  )}
-                  {data.numTwo !== "" ? (
-                    <p>
-                      <Link href={data.numTwo}>{data.numTwo}</Link>
-                    </p>
-                  ) : (
-                    ""
-                  )}
-                  {data.mailOne !== "" ? (
+                 
+                  
+                  
+                   
+                 
+                
                     <p>
                       <Link href={`mailto:${data.mailOne}`}>
                         {data.mailOne}
                       </Link>
                     </p>
-                  ) : (
-                    ""
-                  )}
-                  {data.mailTwo !== "" ? (
-                    <p>
-                      <Link href={`mailto:${data.mailTwo}`}>
-                        {data.mailTwo}
-                      </Link>
-                    </p>
-                  ) : (
-                    ""
-                  )}
+                 
+                    
+                 
                   {data.address !== "" ? <p>{data.address}</p> : ""}
                 </div>
               </div>

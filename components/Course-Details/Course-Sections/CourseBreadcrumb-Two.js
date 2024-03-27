@@ -41,19 +41,19 @@ const CourseBreadcrumbTwo = ({ getMatchCourse }) => {
                 <i className="fa fa-star"></i>
               </Link>
             </div>
-            <div className="feature-sin total-rating">
+            {/* <div className="feature-sin total-rating">
               <Link className="rbt-badge-4" href="#">
                 {getMatchCourse.ratingNumber} rating
               </Link>
-            </div>
-            <div className="feature-sin total-student">
+            </div> */}
+            {/* <div className="feature-sin total-student">
               <span>{getMatchCourse.studentNumber} students</span>
-            </div>
+            </div> */}
           </div>
           <h2 className="title theme-gradient">{getMatchCourse.courseTitle}</h2>
 
           <div className="rbt-author-meta mb--20 justify-content-center">
-            <div className="rbt-avater">
+            {/* <div className="rbt-avater">
               <Link href={`/profile/${getMatchCourse.id}`}>
                 {getMatchCourse.userImg && (
                   <Image
@@ -64,14 +64,14 @@ const CourseBreadcrumbTwo = ({ getMatchCourse }) => {
                   />
                 )}
               </Link>
-            </div>
-            <div className="rbt-author-info">
+            </div> */}
+            {/* <div className="rbt-author-info">
               By{" "}
               <Link href={`/profile/${getMatchCourse.id}`}>
                 {getMatchCourse.userName}
               </Link>{" "}
               In <Link href="#">{getMatchCourse.userCategory}</Link>
-            </div>
+            </div> */}
           </div>
 
           <ul className="rbt-meta">

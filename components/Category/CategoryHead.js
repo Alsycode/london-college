@@ -84,7 +84,7 @@ const CategoryHead = ({
                         </ul>
                       </div>
                     )}
-                    {category && (
+                    {/* {category && (
                       <div className="rbt-short-item">
                         {category.id ? (
                           <span className="course-index">
@@ -97,7 +97,7 @@ const CategoryHead = ({
                           </span>
                         )}
                       </div>
-                    )}
+                    )} */}
                   </div>
                 </div>
                 <div className="col-lg-7 col-md-12">
@@ -107,7 +107,7 @@ const CategoryHead = ({
                     ) : (
                       <div className="rbt-short-item">
                         <form action="#" className="rbt-search-style me-0">
-                          <input
+                          {/* <input
                             type="text"
                             placeholder="Search Your Course.."
                           />
@@ -116,7 +116,7 @@ const CategoryHead = ({
                             className="rbt-search-btn rbt-round-btn"
                           >
                             <i className="feather-search"></i>
-                          </button>
+                          </button> */}
                         </form>
                       </div>
                     )}

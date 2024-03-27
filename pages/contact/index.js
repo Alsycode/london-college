@@ -5,7 +5,7 @@ import Context from "@/context/Context";
 
 import Contact from "@/components/Contacts/Contact";
 import ContactForm from "@/components/Contacts/Contact-Form";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+import HeaderStyleTen from "@/components/Header/HeaderStyle-Four";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import FooterOne from "@/components/Footer/Footer-One";
@@ -30,7 +30,7 @@ const ContactPage = () => {
                       Contact Us
                     </span>
                     <h2 className="title">
-                      Histudy Course Contact <br /> can join with us.
+                     Join us <br /> 
                     </h2>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ const ContactPage = () => {
           <div className="rbt-google-map bg-color-white rbt-section-gapTop">
             <iframe
               className="w-100"
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8054316500397!2d76.32349407450882!3d10.032908772468666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080b1cf47bc41d%3A0xe5a66b4a652615b9!2sLondon%20College!5e0!3m2!1sen!2sin!4v1711517169630!5m2!1sen!2sin"
               height="600"
               style={{ border: "0" }}
             ></iframe>

@@ -78,27 +78,27 @@
       "title": "The Best Trasted Client in This Education World",
       "brandLogo": [
         {
-          "img": "/images/brand/brand-01.png",
+          "img": "/images/brand/delhivery.jpg",
           "width": 103,
-          "height": 35
+          "height": 60
         },
         {
-          "img": "/images/brand/brand-02.png",
+          "img":  "/images/brand/dhl.jpg",
           "width": 169,
-          "height": 25
+          "height": 60
         },
         {
-          "img": "/images/brand/brand-03.png",
+          "img": "/images/brand/dtdc.jpg",
           "width": 112,
           "height": 35
         },
         {
-          "img": "/images/brand/brand-05.png",
+          "img":"/images/brand/flipkart-logo.jpg",
           "width": 130,
           "height": 35
         },
         {
-          "img": "/images/brand/brand-06.png",
+          "img": "/images/brand/cosmos.jpg",
           "width": 169,
           "height": 34
         }

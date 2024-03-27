@@ -24,10 +24,10 @@ const Banner = () => {
         <div className="col-lg-10 offset-lg-1">
           <div className="content">
             <div className="inner text-center">
-              <div className="rbt-new-badge rbt-new-badge-one">
+              {/* <div className="rbt-new-badge rbt-new-badge-one">
                 <span className="rbt-new-badge-icon">🏆</span> The Leader in
                 Online Learning
-              </div>
+              </div> */}
 
               <h1 className="title">
                 Read About Our
@@ -40,10 +40,9 @@ const Banner = () => {
                 </span>
               </h1>
               <p className="description has-medium-font-size mt--20">
-                Dive in and learn React.js from scratch! Learn Reactjs, Hooks,
-                Redux, React Routing, Animations, Next.js and way more!
+              London College is a globally reputed educational institution offering students from across the world, high quality education at an affordable cost. 
               </p>
-              <div className="slider-btn rbt-button-group justify-content-center">
+              {/* <div className="slider-btn rbt-button-group justify-content-center">
                 <Link
                   className="rbt-btn btn-gradient hover-icon-reverse"
                   href="#"
@@ -69,7 +68,7 @@ const Banner = () => {
                     </span>
                   </span>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

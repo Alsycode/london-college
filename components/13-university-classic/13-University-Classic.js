@@ -67,7 +67,7 @@ const UniversityClassic = () => {
                 <Link
                   className="rbt-btn rounded-player popup-video position-to-top rbtplayer"
                   data-vbtype="video"
-                  href="https://www.youtube.com/watch?v=Hp_0pqTVtsw"
+                  href="https://www.youtube.com/watch?v=HASl3MlPgGg"
                 >
                   <span>
                     <i className="feather-play"></i>
@@ -223,7 +223,7 @@ const UniversityClassic = () => {
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
-                <Link className="rbt-btn-link" href="#">
+                <Link className="rbt-btn-link" href="/course-card-2">
                   Browse Histudy Program<i className="feather-arrow-right"></i>
                 </Link>
               </div>
@@ -296,7 +296,7 @@ const UniversityClassic = () => {
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
-                <Link className="rbt-btn-link" href="#">
+                <Link className="rbt-btn-link" href="course-card-2">
                   Browse Histudy Courses<i className="feather-arrow-right"></i>
                 </Link>
               </div>
@@ -363,9 +363,9 @@ const UniversityClassic = () => {
         className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden"
         id="testimonial"
       >
-        <div className="container">
+        {/* <div className="container">
           <Course title="University Tuition & Fees" />
-        </div>
+        </div> */}
       </div>
 
       <div className="rbt-testimonial-area bg-color-light rbt-section-gap overflow-hidden">

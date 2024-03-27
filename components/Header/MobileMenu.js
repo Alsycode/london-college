@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/logo/londonlogo.png";
 
 import Nav from "./Nav";
 import { useAppContext } from "@/context/Context";
@@ -19,7 +19,7 @@ const MobileMenu = () => {
                 <Link href="/">
                   <Image
                     src={logo}
-                    width={137}
+                    width={80}
                     height={45}
                     alt="Education Logo Images"
                   />
@@ -34,18 +34,18 @@ const MobileMenu = () => {
                 </button>
               </div>
             </div>
-            <p className="description">
+            {/* <p className="description">
               Histudy is a education website template. You can customize all.
-            </p>
+            </p> */}
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
                 <Link href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
+                  <i className="feather-mail"></i>counsellor@londoncollege.in
                 </Link>
               </li>
               <li>
                 <Link href="#">
-                  <i className="feather-phone"></i>(302) 555-0107
+                  <i className="feather-phone"></i>+918129999536
                 </Link>
               </li>
             </ul>
@@ -55,12 +55,12 @@ const MobileMenu = () => {
 
           <div className="mobile-menu-bottom">
             <div className="rbt-btn-wrapper mb--20">
-              <Link
+              {/* <Link
                 className="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
                 href="#"
               >
                 <span>Enroll Now</span>
-              </Link>
+              </Link> */}
             </div>
 
             <div className="social-share-wrapper">

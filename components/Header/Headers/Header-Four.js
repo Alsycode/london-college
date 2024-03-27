@@ -59,13 +59,13 @@ const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
             </div>
             <div className="header-right">
               <ul className="quick-access">
-                <li className="access-icon rbt-user-wrapper right-align-dropdown">
+                {/* <li className="access-icon rbt-user-wrapper right-align-dropdown">
                   <Link className="rbt-round-btn" href="#">
                     <i className="feather-user"></i>
                   </Link>
                   <User />
-                </li>
-                <li
+                </li> */}
+                {/* <li
                   className="access-icon rbt-mini-cart"
                   onClick={() => setCart(!cartToggle)}
                 >
@@ -76,8 +76,8 @@ const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                     <i className="feather-shopping-cart"></i>
                     <span className="rbt-cart-count">{total_items}</span>
                   </Link>
-                </li>
-                <li className="access-icon">
+                </li> */}
+                {/* <li className="access-icon">
                   <Link
                     className={`search-trigger-active rbt-round-btn ${
                       search ? "" : "open"
@@ -87,7 +87,7 @@ const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                   >
                     <i className="feather-search"></i>
                   </Link>
-                </li>
+                </li> */}
               </ul>
 
               <div className="mobile-menu-bar d-block d-xl-none">

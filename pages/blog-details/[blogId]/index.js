@@ -38,7 +38,7 @@ console.log("matchedupdate",matchedBlog)
 
   return (
     <>
-      <PageHead title="Blog Details - Online Courses & Education NEXTJS14 Template" />
+      {/* <PageHead title="Blog Details - Online Courses & Education NEXTJS14 Template" /> */}
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -71,7 +71,7 @@ console.log("matchedupdate",matchedBlog)
               </div>
             </div>
 
-            <Instagram />
+            {/* <Instagram /> */}
           </div>
 
           <BackToTop />

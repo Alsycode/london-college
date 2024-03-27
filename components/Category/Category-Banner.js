@@ -30,15 +30,15 @@ const CategoryBanner = ({ category }) => {
                       ? category.category
                       : "All Courses"}
                   </h1>
-                  <Link href="#" className="rbt-badge-2">
+                  {/* <Link href="#" className="rbt-badge-2">
                     <div className="image">🎉</div>
                     {category && category.id} {category.length} Courses
-                  </Link>
+                  </Link> */}
                 </div>
                 <p className="description">
                   {category && category.desc
                     ? category.desc
-                    : "Courses that help beginner designers become true unicorns."}
+                    : "Explore our courses"}
                 </p>
               </div>
             </div>

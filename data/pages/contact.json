@@ -2,14 +2,14 @@
   "contactOne": [
     {
       "title": "Contact Phone Number",
-      "numOne": "+444 555 666 777",
+      "numOne": "+918129999536",
       "numTwo": "+222 222 222 333",
       "icon": "feather-headphones",
       "address": ""
     },
     {
       "title": "Our Email Address",
-      "mailOne": "admin@gmail.com",
+      "mailOne": "counsellor@londoncollege.in",
       "mailTwo": "example@gmail.com",
       "icon": "feather-mail",
       "numOne": "",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Our Location",
-      "address": "5678 Bangla Main Road, cities 580 GBnagla, example 54786",
+      "address": "Pipeline Junction, Thrikkakara,Kochi,Kerala,682021",
       "icon": "feather-map-pin",
       "numOne": "",
       "numTwo": ""

@@ -32,7 +32,7 @@ const Nav = () => {
             href="/"
           >
             Home
-            <i className="feather-chevron-down"></i>
+            <i ></i>
           </Link>
           {/* <div
             className={`rbt-megamenu menu-skin-dark ${
@@ -111,7 +111,7 @@ const Nav = () => {
             onClick={() => toggleMenuItem("courses")}
           >
             Courses
-            <i className="feather-chevron-down"></i>
+            <i ></i>
           </Link>
 
           {/* <div
@@ -229,7 +229,7 @@ const Nav = () => {
             onClick={() => toggleMenuItem("pages")}
           >
             More
-            <i className="feather-chevron-down"></i>
+            <i ></i>
           </Link>
           {/* <div
             className={`rbt-megamenu grid-item-4 ${
@@ -362,7 +362,7 @@ const Nav = () => {
             onClick={() => toggleMenuItem("blog")}
           >
             Updates
-            <i className="feather-chevron-down"></i>
+            <i ></i>
           </Link>
           {/* <div
             className={`rbt-megamenu grid-item-3 ${
@@ -458,6 +458,24 @@ const Nav = () => {
             </div>
                     </div> */}
         </li> 
+        <li className="with-megamenu position-static">
+          <Link
+            href="/contact"
+           
+          >
+            Contact Us
+            <i ></i>
+          </Link>
+          </li>
+          <li className="with-megamenu position-static">
+          <Link
+            href="/about-us-02"
+           
+          >
+            About Us
+            <i ></i>
+          </Link>
+          </li>
       </ul>
     </nav>
   );

@@ -13,7 +13,7 @@ const ServiceTwelve = ({ head }) => {
               <div className="row mb--60">
                 <div className="col-lg-12">
                   <div className="section-title text-center">
-                    <h2 className="title">{data.sectionTitle}</h2>
+                    {/* <h2 className="title">{data.sectionTitle}</h2> */}
                   </div>
                 </div>
               </div>
