@@ -6,7 +6,7 @@ const CourseMenu = () => {
 
   const sections = [
     { id: "overview", label: "Overview" },
-    { id: "coursecontent", label: "Course Content" },
+    // { id: "coursecontent", label: "Course Content" },
     { id: "details", label: "Details" },
     
   ];
@@ -14,7 +14,7 @@ const CourseMenu = () => {
   useEffect(() => {
     const sectionIds = [
       "overview",
-      "coursecontent",
+      // "coursecontent",
       "details",
      
     ];

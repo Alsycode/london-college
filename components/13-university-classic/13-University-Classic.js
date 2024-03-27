@@ -121,9 +121,9 @@ const UniversityClassic = () => {
         </div>
       </div>
 
-      <div className="rbt-category-area bg-color-white rbt-section-gapTop">
+      {/* <div className="rbt-category-area bg-color-white rbt-section-gapTop">
         <ServiceEight isHead={false} />
-      </div>
+      </div> */}
 
       <div className="rbt-banner-area rbt-section-gapTop">
         <div className="container">

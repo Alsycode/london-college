@@ -34,7 +34,7 @@
       "courseOverview": [
         {
           "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
+          "desc": "Delivering skills integrated management program at affordable prices and excellent quality to fit the right candidate to the right job, consistently and reliably Post Graduate Diploma in Supply chain management is an extensive advanced skills integrated management program in Supply Chain Management, Logistics, International Shipping, Export & Import and Retail Management. It is a dual certification program offered by London College. A program par excellence because it helps the students to gain a complete real-life experience of Supply chain and Logistics sector thus transforming the students into real supply chain professionals. Delivery of the Course curriculum is further enhanced by Industrial visit and Industrial Institute Interface sessions, a specialised training from industry experts imparting their vast experience to our students. Students who complete this program get a dual Post Graduate Diploma in Logistics and Supply Chain Management from London College India.",
           "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
           "overviewList": [
             {
@@ -9767,11 +9767,11 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Design", "Development"],
+      
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
-          "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
+          "title": "About Course",
+          "desc": "Delivering skills integrated management program at affordable prices and excellent quality to fit the right candidate to the right job, consistently and reliably.Post Graduate Diploma in Supply chain management is an extensive advanced skills integrated management program in Supply Chain Management, Logistics, International Shipping, Export & Import and Retail Management. It is a dual certification program offered by London College. A program par excellence because it helps the students to gain a complete real-life experience of Supply chain and Logistics sector thus transforming the students into real supply chain professionals. Delivery of the Course curriculum is further enhanced by Industrial visit and Industrial Institute Interface sessions, a specialised training from industry experts imparting their vast experience to our students. Students who complete this program get a dual Post Graduate Diploma in Logistics and Supply Chain Management from London College India.",
           "overviewList": [
             {
               "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
@@ -10016,36 +10016,39 @@
       ],
       "courseRequirement": [
         {
-          "title": "Requirements",
+          "title": "Certificates",
           "detailsList": [
             {
-              "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
+              "listItem": "Dual Post Graduate Diploma in– Logistics, Supply Chain & Retail management – International Shipping & Export Import Management Certified by London College."
             },
             {
-              "listItem": "Have an intermediate skill level of Python programming."
+              "listItem": "Post Graduate Diploma in Logistics & Supply Chain Management"
             },
             {
-              "listItem": "Have a portfolio of various data analysis projects."
+              "listItem": "Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
             },
             {
-              "listItem": "Use the numpy library to create and manipulate arrays."
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
+            },
+            {
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
             }
           ]
         },
         {
-          "title": "Description",
+          "title": "Affiliations",
           "detailsList": [
             {
-              "listItem": "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
             },
             {
-              "listItem": "Use the pandas module with Python to create and structure data."
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
             },
             {
-              "listItem": "Have a portfolio of various data analysis projects."
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
             },
             {
-              "listItem": "Create data visualizations using matplotlib and the seaborn."
+              "listItem": "Authorized training partner of ATHE, UK (Awards of Training and Higher Education)"
             }
           ]
         }

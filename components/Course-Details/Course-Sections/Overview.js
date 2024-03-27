@@ -20,25 +20,25 @@ const Overview = ({ checkMatchCourses }) => {
 
           <div className="row g-5 mb--30">
             <div className="col-lg-6">
-              <ul className="rbt-list-style-1">
+              {/* <ul className="rbt-list-style-1">
                 {overviewList.slice(0, 4).map((item, innerIndex) => (
                   <li key={innerIndex}>
                     <i className="feather-check"></i>
                     {item.listItem}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
 
             <div className="col-lg-6">
-              <ul className="rbt-list-style-1">
+              {/* <ul className="rbt-list-style-1">
                 {overviewList.slice(4, 8).map((item, innerIndex) => (
                   <li key={innerIndex}>
                     <i className="feather-check"></i>
                     {item.listItem}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </div>
           <p>{descTwo}</p>
