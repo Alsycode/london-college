@@ -37,7 +37,8 @@ const SingleCourseTwo = () => {
       once: true,
     });
   }, [checkMatch, router]);
-
+const delivery = CourseData.courseTab[0].DeliveryAndBenefit;
+console.log("delivery",delivery);
   return (
     <>
       <PageHead title="Course Filter Toggle - Online Courses & Education NEXTJS14 Template" />

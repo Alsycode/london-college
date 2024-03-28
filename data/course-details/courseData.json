@@ -9767,7 +9767,49 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Design", "Development"],
-      
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many colleges and universities is growing, driven by the increased visibility of supply chain topics in recent headlines. More students, along with their parents, now understand the significance of supply chains. Unlike fields with established histories like accounting or finance, supply chain hasn't traditionally been a top choice recommended by parents. However, the pandemic has shifted perceptions, leading to a rise in interest among students. The value of strong supply chains has become apparent across various disciplines, with supply chain management modules attracting students from business, medicine, public health, and science and engineering backgrounds. Concepts like risk mitigation, resilience, and agility are gaining prominence, with students focusing on identifying and responding to risks. COVID-19 highlighted the importance of supply chain resilience, driving it to the forefront of research and teaching. Students now learn to navigate uncertainty and problem-solve in dynamic environments, preparing them for the complexities of the future."
+        }
+      ],
+      "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
+          ]
+        }
+      ],
+    
+  
       "courseOverview": [
         {
           "title": "About Course",
@@ -9800,6 +9842,7 @@
           ]
         }
       ],
+
       "courseContent": [
         {
           "title": "Course Content",

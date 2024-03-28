@@ -27,8 +27,10 @@ import hiImgOne from "../../public/images/banner/one.jpg";
 import hiImgTwo from "../../public/images/banner/two.jpg";
 import hiImgThree from "../../public/images/banner/hi_3.png";
 import videoImg from "../../public/images/others/video-06.jpg";
-
+import courseDetails from "../../data/course-details/courseData.json";
 const UniversityClassic = () => {
+  const coursess = courseDetails.courseTab.slice(0, 3);
+  console.log("coursess",coursess)
   useEffect(() => {
     import("venobox/dist/venobox.min.js").then((venobox) => {
       new venobox.default({
@@ -73,6 +75,7 @@ const UniversityClassic = () => {
                     <i className="feather-play"></i>
                   </span>
                 </Link>
+                
               </div>
             </div>
             <div className="col-lg-6">
@@ -229,24 +232,35 @@ const UniversityClassic = () => {
               </div>
             </div>
           </div>
-
           <div className="row g-5">
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="rbt-category-gallery">
-                <div className="thumbnail">
-                  <Link href="#">
-                    <Image src={imgOne} property="true" alt="Gallery Images" />
-                    <div className="rbt-bg-overlay"></div>
-                  </Link>
-                  <div className="hover-content">
-                    <h3 className="title">
-                      <Link href="#">PG DIPLOMA</Link>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          {courseDetails?.courseTab?.slice(0, 3).map((item, index) => {
+  console.log(item); // Logging the current item
+  return (
+    <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
+      <div className="rbt-category-gallery">
+        <div className="thumbnail">
+          <Link href={`/course-details-2/${item.id}`}>
+          <Image
+                    src={item.courseImg}
+                    width={498}
+                    height={498}
+                    alt="Card image"
+                  />
+            <div className="rbt-bg-overlay"></div>
+          </Link>
+          <div className="hover-content">
+            <h3 className="title">
+            <Link href={`/course-details-2/${item.id}`}>{item.courseTitle}</Link>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+})}
+
+         
+            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
               <div className="rbt-category-gallery">
                 <div className="thumbnail">
                   <Link href="#">
@@ -279,7 +293,7 @@ const UniversityClassic = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

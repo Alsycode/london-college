@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import courseDetails from "../../data/course-details/courseData.json";
 import CardData from "../../data/elements/card";
 
 const CardThree = () => {
   return (
     <>
-      {CardData &&
-        CardData.cardThree.map((data, index) => (
+      {courseDetails?.courseTab?.slice(0, 3).map((item, index)  => (
           <div
             className="col-lg-6 col-md-6 col-sm-6 col-12 mt--30"
             data-sal-delay="150"
@@ -17,9 +16,9 @@ const CardThree = () => {
           >
             <div className="rbt-card variation-01 rbt-hover card-list-2">
               <div className="rbt-card-img">
-                <Link href={data.link}>
+                <Link href={`/course-details-2/${item.id}`}>
                   <Image
-                    src={data.img}
+                    src={item.courseImg}
                     width={231}
                     height={324}
                     alt="Card image"
@@ -36,9 +35,9 @@ const CardThree = () => {
                       <i className="fas fa-star"></i>
                       <i className="fas fa-star"></i>
                     </div>
-                    <span className="rating-count">
+                    {/* <span className="rating-count">
                       ({data.rating} Reviews)
-                    </span>
+                    </span> */}
                   </div>
                   <div className="rbt-bookmark-btn">
                     <Link className="rbt-round-btn" title="Bookmark" href="#">
@@ -48,7 +47,7 @@ const CardThree = () => {
                 </div>
 
                 <h4 className="rbt-card-title">
-                  <Link href={data.link}>{data.title}</Link>
+                  <Link href={`/course-details-2/${item.id}`}>{item.courseTitle}</Link>
                 </h4>
 
                 {/* <ul className="rbt-meta">
@@ -62,7 +61,7 @@ const CardThree = () => {
                   </li>
                 </ul> */}
 
-                <p className="rbt-card-text">{data.desc}</p>
+                {/* <p className="rbt-card-text">{data.desc}</p> */}
                 <div className="rbt-author-meta mb--10">
                   {/* <div className="rbt-avater">
                     <Link href={data.linkTwo}>

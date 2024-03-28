@@ -12,9 +12,9 @@ import Review from "./Course-Sections/Review";
 import Featured from "./Course-Sections/Featured";
 import RelatedCourse from "./Course-Sections/RelatedCourse";
 import Content from "./Course-Sections/Content";
-
+import DeliveryandBenifits from "./Course-Sections/Delivery-and-Benifits"; // Corrected import
 import VideoImg from "../../public/images/others/video-07.jpg";
-
+import AboutIndustry from "./Course-Sections/AboutIndustry";
 const CourseDetailsTwo = ({ checkMatchCourses }) => {
   useEffect(() => {
     import("venobox/dist/venobox.min.js").then((venobox) => {
@@ -23,6 +23,7 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
       });
     });
   }, []);
+
   return (
     <>
       <div className="col-lg-12">
@@ -35,7 +36,6 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
             <div className="video-content">
               <Image
                 className="w-100 rbt-radius"
-                // src={checkMatchCourses.courseImg}
                 src={VideoImg}
                 width={1305}
                 height={660}
@@ -55,42 +55,26 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
       </div>
 
       <div className="row row--30 gy-5 pt--60">
-        {/* <div className="col-lg-4">
-          <div className="course-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
-            <div className="inner">
-              <div className="content-item-content">
-                <Viedo
-                  checkMatchCourses={checkMatchCourses && checkMatchCourses}
-                />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         <div className="col-lg-12">
           <div className="course-details-content">
             <div className="rbt-inner-onepage-navigation sticky-top mt--30">
               <CourseMenu />
             </div>
 
-            {checkMatchCourses &&
+          
+
+
+            {/* Commented-out section */}
+            <div className="course-content rbt-shadow-box coursecontent-wrapper mt--30" id="About course">
+             {checkMatchCourses &&
               checkMatchCourses.courseOverview.map((data, index) => (
                 <Overview {...data} key={index} checkMatchCourses={data} />
               ))}
-
-            {/* <div
-              className="course-content rbt-shadow-box coursecontent-wrapper mt--30"
-              id="coursecontent"
-            >
-              {checkMatchCourses &&
-                checkMatchCourses.courseContent.map((data, index) => (
-                  <Content {...data} key={index} checkMatchCourses={data} />
-                ))}
-            </div> */}
+            </div>
 
             <div
               className="rbt-course-feature-box rbt-shadow-box details-wrapper mt--30"
-              id="details"
+              id="Certificates & Affiliates"
             >
               <div className="row g-5">
                 {checkMatchCourses &&
@@ -102,34 +86,53 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
                     />
                   ))}
               </div>
+              
             </div>
-            {/* <div
-              className="rbt-instructor rbt-shadow-box intructor-wrapper mt--30"
-              id="intructor"
+            
+            {/* Display Delivery and Benefits section */}
+            <DeliveryandBenifits />
+            
+            {/* Instructor section */}
+            <div
+              className="rbt-instructor rbt-shadow-box instructor-wrapper mt--30"
+              id="Delivery & Benefit" // Corrected typo
             >
-              {checkMatchCourses &&
-                checkMatchCourses.courseInstructor.map((data, index) => (
-                  <Instructor {...data} key={index} checkMatchCourses={data} />
-                ))}
-            </div> */}
-            {/* <div
-              className="rbt-review-wrapper rbt-shadow-box review-wrapper mt--30"
-              id="review"
-            >
+              
+                  <DeliveryandBenifits   checkMatchCourses={checkMatchCourses.DeliveryAndBenefit} />
+
+            </div>
+           
+            
+            {/* Commented-out section */}
+            {/* <div className="rbt-review-wrapper rbt-shadow-box review-wrapper mt--30" id="review">
               <Review />
             </div> */}
 
+            {/* Featured section */}
             {/* {checkMatchCourses &&
               checkMatchCourses.featuredReview.map((data, index) => (
                 <Featured {...data} key={index} coursesFeatured={data} />
               ))} */}
+              
           </div>
+          {/* Related course section */}
           {/* <div className="related-course mt--60">
             {checkMatchCourses &&
               checkMatchCourses.relatedCourse.map((data, index) => (
                 <RelatedCourse {...data} key={index} checkMatchCourses={data} />
               ))}
           </div> */}
+           <div
+              className="rbt-instructor rbt-shadow-box instructor-wrapper mt--30"
+              id="About Industry" // Corrected typo
+            >
+              
+              {checkMatchCourses &&
+             
+             <AboutIndustry  checkMatchCourses={checkMatchCourses.aboutIndustry} />
+           }
+
+            </div>
         </div>
       </div>
     </>
