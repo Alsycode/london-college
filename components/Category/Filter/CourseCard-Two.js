@@ -46,14 +46,14 @@ const CourseCardTwo = ({ course }) => {
                 </Link>
               </div>
               <div className="rbt-card-body">
-                <div className="rbt-category">
+                {/* <div className="rbt-category">
                   {data.courseFor &&
                     data.courseFor.map((crs, i) => (
                       <a key={i} href="#">
                         {crs}
                       </a>
                     ))}
-                </div>
+                </div> */}
                 <h4 className="rbt-card-title">
                   <Link href={`/course-details-2/${data.id}`}>
                     {data.courseTitle}

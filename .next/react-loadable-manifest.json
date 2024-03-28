@@ -1,10 +1,4 @@
 {
-  "..\\components\\13-university-classic\\13-University-Classic.js -> venobox/dist/venobox.min.js": {
-    "id": "..\\components\\13-university-classic\\13-University-Classic.js -> venobox/dist/venobox.min.js",
-    "files": [
-      "static/chunks/node_modules_venobox_dist_venobox_min_js.js"
-    ]
-  },
   "..\\components\\Course-Details\\Course-Sections\\Viedo.js -> venobox/dist/venobox.min.js": {
     "id": "..\\components\\Course-Details\\Course-Sections\\Viedo.js -> venobox/dist/venobox.min.js",
     "files": [
@@ -13,12 +7,6 @@
   },
   "..\\components\\Course-Details\\CourseDetails-Two.js -> venobox/dist/venobox.min.js": {
     "id": "..\\components\\Course-Details\\CourseDetails-Two.js -> venobox/dist/venobox.min.js",
-    "files": [
-      "static/chunks/node_modules_venobox_dist_venobox_min_js.js"
-    ]
-  },
-  "..\\components\\Gallery\\Gallery.js -> venobox/dist/venobox.min.js": {
-    "id": "..\\components\\Gallery\\Gallery.js -> venobox/dist/venobox.min.js",
     "files": [
       "static/chunks/node_modules_venobox_dist_venobox_min_js.js"
     ]

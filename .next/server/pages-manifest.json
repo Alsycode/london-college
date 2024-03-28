@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/course-details-2/[courseId]": "pages/course-details-2/[courseId].js",
   "/course-card-2": "pages/course-card-2.js",
-  "/": "pages/index.js",
-  "/404": "pages/404.js"
+  "/course-details-2": "pages/course-details-2.js",
+  "/course-details-2/[courseId]": "pages/course-details-2/[courseId].js"
 }

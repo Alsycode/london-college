@@ -5,7 +5,7 @@ import Typed from "typed.js";
 const Banner = () => {
   useEffect(() => {
     const typeitInstance = new Typed(".is-visible", {
-      strings: ["Mission.", "Vission", "Planning"],
+      strings: ["Mission.", "Vision", "Planning"],
       typeSpeed: 80,
       backSpeed: 60,
       startDelay: 200,

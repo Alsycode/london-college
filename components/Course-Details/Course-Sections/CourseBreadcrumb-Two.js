@@ -7,7 +7,7 @@ const CourseBreadcrumbTwo = ({ getMatchCourse }) => {
       <div className="col-lg-8 offset-lg-2">
         <div className="content text-center">
           <div className="d-flex align-items-center flex-wrap justify-content-center mb--15 rbt-course-details-feature">
-            <div className="feature-sin best-seller-badge">
+            {/* <div className="feature-sin best-seller-badge">
               <span className="rbt-badge-2">
                 <span className="image">
                   {" "}
@@ -22,10 +22,10 @@ const CourseBreadcrumbTwo = ({ getMatchCourse }) => {
                 </span>{" "}
                 {getMatchCourse.sellsType}
               </span>
-            </div>
+            </div> */}
             <div className="feature-sin rating">
-              <Link href="#">{getMatchCourse.star}</Link>
-              <Link href="#">
+              {/* <Link href="#">{getMatchCourse.star}</Link> */}
+              {/* <Link href="#">
                 <i className="fa fa-star"></i>
               </Link>
               <Link href="#">
@@ -39,7 +39,7 @@ const CourseBreadcrumbTwo = ({ getMatchCourse }) => {
               </Link>
               <Link href="#">
                 <i className="fa fa-star"></i>
-              </Link>
+              </Link> */}
             </div>
             {/* <div className="feature-sin total-rating">
               <Link className="rbt-badge-4" href="#">
@@ -74,7 +74,7 @@ const CourseBreadcrumbTwo = ({ getMatchCourse }) => {
             </div> */}
           </div>
 
-          <ul className="rbt-meta">
+          {/* <ul className="rbt-meta">
             <li>
               <i className="feather-calendar"></i>Last updated{" "}
               {getMatchCourse.date}
@@ -87,7 +87,7 @@ const CourseBreadcrumbTwo = ({ getMatchCourse }) => {
               <i className="feather-award"></i>
               {getMatchCourse.courseAward}
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </>
