@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.js",
-  "/pages/faqs": "pages/pages/faqs.js",
-  "/course-card-2": "pages/course-card-2.js"
+  "/": "pages/index.js",
+  "/404": "pages/404.js"
 }

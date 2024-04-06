@@ -154,7 +154,7 @@ module.exports = require("sal.js");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/swiper","vendor-chunks/sal.js","vendor-chunks/bootstrap"], () => (__webpack_exec__("./pages/_app.js")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/swiper","vendor-chunks/bootstrap","vendor-chunks/sal.js"], () => (__webpack_exec__("./pages/_app.js")));
 module.exports = __webpack_exports__;
 
 })();
