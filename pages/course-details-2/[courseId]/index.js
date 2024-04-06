@@ -76,7 +76,7 @@ console.log("delivery",delivery);
           <div className="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
             <SimilarCourses
               checkMatchCourses={
-                checkMatch !== undefined ? checkMatch.similarCourse : ""
+                getCourse !== undefined ? getCourse : ""
               }
             />
           </div>

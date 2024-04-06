@@ -26,7 +26,7 @@ const HeaderTopFour = ({
                   <ul className="rbt-information-list">
                     <li>
                       <Link href="#">
-                        <i className="feather-phone"></i>+1-202-555-0174
+                        <i className="feather-phone"></i>+91-812999536
                       </Link>
                     </li>
                   </ul>
@@ -35,26 +35,26 @@ const HeaderTopFour = ({
                 <div className="header-info">
                   <ul className="social-share-transparent">
                     <li>
-                      <Link href="#">
+                      <Link href="https://www.facebook.com/londoncollegekochi/">
                         <i className="fab fa-facebook-f"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="https://twitter.com/LondonCollegebf">
                         <i className="fab fa-twitter"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="https://www.instagram.com/londoncollegekochi/">
                         <i className="fab fa-linkedin-in"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="https://www.linkedin.com/company/london-college/?originalSubdomain=in">
                         <i className="fab fa-instagram"></i>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="#">
                         <i className="fab fa-skype"></i>
                       </Link>
@@ -63,7 +63,7 @@ const HeaderTopFour = ({
                       <Link href="#">
                         <i className="fab fa-youtube"></i>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const HeaderTopFour = ({
 
             <div className="rbt-header-sec-col rbt-header-right">
               <div className="rbt-header-content">
-                <div className="header-info">
+                {/* <div className="header-info">
                   <ul className="rbt-secondary-menu">
                     <li>
                       <Link href="/my-account">My Account</Link>
@@ -89,15 +89,15 @@ const HeaderTopFour = ({
                       <Link href="#">Terms & Condition</Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="rbt-separator"></div>
-                <div className="header-info" onClick={() => setToggle(!toggle)}>
+                {/* <div className="header-info" onClick={() => setToggle(!toggle)}>
                   <div className="header-right-btn d-flex">
                     <Link className={`rbt-btn ${btnClass}`} href="#">
                       <span data-text={`${btnText}`}>{btnText}</span>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

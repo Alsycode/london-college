@@ -5,20 +5,20 @@
       "title": "Advance Tab Style One.",
       "body": [
         {
-          "text": "Specialized Skills Development",
+          "text": "Logistic Sector Skill Council Accredition",
           "isActive": false,
           "tab": "home-tab",
           "target": "home",
           "desc": "Our diploma programs are tailored to provide specialized skills and hands-on training. From state-of-the-art laboratories to industry-standard equipment, students receive practical experience that prepares them for success in their chosen career paths.",
-          "img": "/images/tab/tabs-03.jpg"
+          "img": "/images/tab/tabs-03.png"
         },
         {
-          "text": "Faster Entry into the Workforce",
+          "text": "Awards For Training and Higher Education",
           "isActive": true,
           "tab": "profile-tab",
           "target": "profile",
           "desc": "At London College, we understand the importance of getting a head start in your career. Our diploma programs offer shorter durations compared to traditional degrees, allowing you to enter the workforce sooner. This means you can start earning and gaining valuable work experience while others are still studying.",
-          "img": "/images/tab/tabs-02.jpg"
+          "img": "/images/tab/tabs-02.png"
         },
         {
           "text": "Industry-Relevant Training",
@@ -26,7 +26,7 @@
           "tab": "contact-tab",
           "target": "contact",
           "desc": " We pride ourselves on delivering industry-relevant training that meets the demands of today's job market. Through collaborations with leading companies and professionals, our curriculum is constantly updated to ensure that students graduate with the latest skills and knowledge needed to excel in their fields.",
-          "img": "/images/tab/tabs-01.jpg"
+          "img": "/images/tab/tabs-01.png"
         }
       ]
     }

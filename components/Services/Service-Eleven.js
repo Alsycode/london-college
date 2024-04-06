@@ -12,9 +12,9 @@ const ServiceEleven = ({ isTitle }) => {
             {isTitle === undefined ? (
               <div className="row mb--60">
                 <div className="col-lg-12">
-                  <div className="section-title text-center">
+                  {/* <div className="section-title text-center">
                     <h2 className="title">{data.sectionTitle}</h2>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ) : (
@@ -26,15 +26,15 @@ const ServiceEleven = ({ isTitle }) => {
                   className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mt--30"
                   key={innerIndex}
                 >
-                  <div className="rbt-flipbox variation-2">
+                  <div className="variation-2">
                     <div
                       className={`rbt-flipbox-wrap rbt-service rbt-service-1 ${
                         item.bgOne
-                          ? "card-bg-1"
+                          ? "card-bg-4"
                           : "" || item.bgTwo
-                          ? "card-bg-2"
+                          ? "card-bg-4"
                           : "" || item.bgThree
-                          ? "card-bg-3"
+                          ? "card-bg-4"
                           : "" || item.bgFour
                           ? "card-bg-4"
                           : ""
@@ -56,21 +56,21 @@ const ServiceEleven = ({ isTitle }) => {
                           <ul className="rbt-list-style-3">
                             {item.list.map((listItem, innerIndex) => (
                               <li key={innerIndex}>
-                                <i className={listItem.icon}></i>{" "}
+                                {/* <i className={listItem.icon}></i>{" "} */}
                                 {listItem.text}
                               </li>
                             ))}
                           </ul>
-                          <Link
+                          {/* <Link
                             className="rbt-btn-link stretched-link"
                             href="#"
                           >
                             Learn More<i className="feather-arrow-right"></i>
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
 
-                      <div className="rbt-flipbox-back rbt-flipbox-face inner">
+                      {/* <div className="rbt-flipbox-back rbt-flipbox-face inner">
                         <div className="flip-back-top">
                           <div className="back-thumb w-100">
                             <Image
@@ -89,8 +89,8 @@ const ServiceEleven = ({ isTitle }) => {
                         >
                           <span data-text="Learn More">Learn More</span>
                         </Link>
-                      </div>
-                    </div>
+                      </div>*/}
+                    </div> 
                   </div>
                 </div>
               ))}

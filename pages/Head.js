@@ -7,7 +7,7 @@ const PageHead = ({ title }) => {
         <title>{title}</title>
         <meta name="description" content="Page Description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon (1).ico" />
       </Head>
     </>
   );

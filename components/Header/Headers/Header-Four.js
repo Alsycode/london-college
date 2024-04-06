@@ -4,13 +4,18 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../../public/images/logo/londonlogo.png";
+import logo from "../../../public/images/logo/londonheaderlogo.png";
 
 import Nav from "../Nav";
 import User from "../Offcanvas/User";
 import Search from "../Offcanvas/Search";
-
-const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
+import HeaderTopFour from "../Header-Top/HeaderTop-Four";
+const HeaderFour = ({   headerType,
+  gapSpaceBetween,
+  sticky,
+  headerSticky,
+  navigationEnd,
+  container, }) => {
   const { mobile, setMobile, search, setSearch, cartToggle, setCart } =
     useAppContext();
   const [isSticky, setIsSticky] = useState(false);
@@ -34,20 +39,21 @@ const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
   }, []);
   return (
     <>
-      <div
-        className={`rbt-header-wrapper ${gapSpaceBetween} ${sticky} ${
-          isSticky ? "rbt-sticky" : ""
+    <HeaderTopFour/>
+    <div
+        className={`rbt-header-wrapper rbt-header-wrapper height-50 ${gapSpaceBetween} ${sticky}  ${
+          !headerType && isSticky ? `${headerSticky}` : ""
         }`}
       >
         <div className={`${container}`}>
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
             <div className="header-left">
-              <div className="logo">
+              <div className="logo" style={{paddingTop:"20px"}}>
                 <Link href="/">
                   <Image
                     src={logo}
-                    width={80}
-                    height={50}
+                    width={300}
+                    height={300}
                     priority={true}
                     alt="Education Logo Images"
                   />

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import PageHead from "../Head";
 import { Provider } from "react-redux";
 import Store from "@/redux/store";
@@ -10,11 +9,11 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import CategoryHead from "@/components/Category/CategoryHead";
 import Pagination from "@/components/Common/Pagination";
 import FooterOne from "@/components/Footer/Footer-One";
-
 import CourseDetails from "../../data/course-details/courseData.json";
 import BackToTop from "../backToTop";
 import CourseCardTwo from "@/components/Category/Filter/CourseCard-Two";
 import CallToActionFour from "@/components/Call-To-Action/CallToAction-Four";
+import ContactForm from "@/components/Contacts/Contact-Form";
 
 const CourseCardFourLayout = () => {
   const [courses, setCourse] = useState([]);
@@ -23,9 +22,8 @@ const CourseCardFourLayout = () => {
 
   let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.courseTab));
 
-  const startIndex = (page - 1) * 6;
-
-  const getSelectedCourse = courses.slice(startIndex, startIndex + 6);
+  const startIndex = (page - 1) * 10;
+  const getSelectedCourse = courses.slice(startIndex, startIndex + 10);
 
   const handleClick = (num) => {
     setPage(num);
@@ -37,25 +35,20 @@ const CourseCardFourLayout = () => {
 
   useEffect(() => {
     setCourse(getAllCourse);
-    setTotalPages(Math.ceil(getAllCourse.length / 6));
+    setTotalPages(Math.ceil(getAllCourse.length / 10)); // Updated for 10 courses per page
   }, [setTotalPages, setCourse]);
-
+console.log("get",getAllCourse)
   return (
     <>
       <PageHead title="Course Four - Online Courses & Education NEXTJS14 Template" />
-
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
-          {/* <MobileMenu /> */}
-          {/* <Cart /> */}
-
           <CategoryHead category={getAllCourse} />
           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="container">
               <CourseCardTwo course={getSelectedCourse} />
-
-              {/* {getAllCourse.length > 6 ? (
+              {getAllCourse.length > 10 ? ( // Updated for 10 courses per page
                 <div className="row">
                   <div className="col-lg-12 mt--60">
                     <Pagination
@@ -67,14 +60,10 @@ const CourseCardFourLayout = () => {
                 </div>
               ) : (
                 ""
-              )} */}
+              )}
             </div>
           </div>
-
-          {/* <div className="rbt-callto-action rbt-cta-default style-4 bg-gradient-6 mt--75">
-            <CallToActionFour btnClass="rbt-btn btn-gradient hover-icon-reverse" />
-          </div> */}
-
+          <ContactForm />
           <BackToTop />
           <FooterOne />
         </Context>

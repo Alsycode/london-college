@@ -39,7 +39,7 @@ const AdvanceTab = ({ tag, title, desc }) => {
                         >
                           <div className="tab">
                             <h4 className="title">{item.text}</h4>
-                            <p className="description">{item.desc}</p>
+                            {/* <p className="description">{item.desc}</p> */}
                           </div>
                         </Link>
                       </li>
@@ -47,7 +47,7 @@ const AdvanceTab = ({ tag, title, desc }) => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 col-12 order-1 order-lg-2">
+              <div className="col-lg-8 col-md-12 col-sm-12 col-12 order-1 order-lg-2 d-flex align-items-center justify-content-center">
                 <div className="tab-content">
                   {data.body.map((item, innerIndex) => (
                     <div
@@ -62,8 +62,8 @@ const AdvanceTab = ({ tag, title, desc }) => {
                       <div className="thumbnail">
                         <Image
                           src={item.img}
-                          width={860}
-                          height={620}
+                          width={500}
+                          height={300}
                           alt="advance-tab-image"
                         />
                       </div>

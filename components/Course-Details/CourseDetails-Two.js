@@ -15,6 +15,8 @@ import Content from "./Course-Sections/Content";
 import DeliveryandBenifits from "./Course-Sections/Delivery-and-Benifits"; // Corrected import
 import VideoImg from "../../public/images/others/video-07.jpg";
 import AboutIndustry from "./Course-Sections/AboutIndustry";
+import Gallery from "../Gallery/Gallery";
+import Jobrole from "./Course-Sections/jobrole";
 const CourseDetailsTwo = ({ checkMatchCourses }) => {
   useEffect(() => {
     import("venobox/dist/venobox.min.js").then((venobox) => {
@@ -23,7 +25,8 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
       });
     });
   }, []);
-
+const cerificate = checkMatchCourses.courseRequirement;
+console.log("cerificate",cerificate)
   return (
     <>
       <div className="col-lg-12">
@@ -65,18 +68,18 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
 
 
             {/* Commented-out section */}
-            <div className="course-content rbt-shadow-box coursecontent-wrapper mt--30" id="About course">
+            
              {checkMatchCourses &&
               checkMatchCourses.courseOverview.map((data, index) => (
                 <Overview {...data} key={index} checkMatchCourses={data} />
               ))}
-            </div>
+            
 
             <div
               className="rbt-course-feature-box rbt-shadow-box details-wrapper mt--30"
               id="Certificates & Affiliates"
             >
-              <div className="row g-5">
+              
                 {checkMatchCourses &&
                   checkMatchCourses.courseRequirement.map((data, index) => (
                     <Requirements
@@ -85,12 +88,12 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
                       checkMatchCourses={data}
                     />
                   ))}
-              </div>
+              
               
             </div>
             
             {/* Display Delivery and Benefits section */}
-            <DeliveryandBenifits />
+            {/* <DeliveryandBenifits /> */}
             
             {/* Instructor section */}
             <div
@@ -102,7 +105,17 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
 
             </div>
            
-            
+            <div
+              className="rbt-instructor rbt-shadow-box instructor-wrapper mt--30"
+              id="About Industry" // Corrected typo
+            >
+              
+              {checkMatchCourses &&
+             
+             <AboutIndustry  checkMatchCourses={checkMatchCourses.aboutIndustry} />
+           }
+
+            </div>
             {/* Commented-out section */}
             {/* <div className="rbt-review-wrapper rbt-shadow-box review-wrapper mt--30" id="review">
               <Review />
@@ -122,15 +135,22 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
                 <RelatedCourse {...data} key={index} checkMatchCourses={data} />
               ))}
           </div> */}
-           <div
+         
+
+            <div
               className="rbt-instructor rbt-shadow-box instructor-wrapper mt--30"
-              id="About Industry" // Corrected typo
+              id="Recruitment"
             >
               
-              {checkMatchCourses &&
-             
-             <AboutIndustry  checkMatchCourses={checkMatchCourses.aboutIndustry} />
-           }
+             <Gallery/>
+
+            </div>
+            <div
+              className="rbt-instructor rbt-shadow-box instructor-wrapper mt--30"
+              id="Job role"
+            >
+              
+             <Jobrole/>
 
             </div>
         </div>

@@ -11,12 +11,12 @@ const TestimonialFour = () => {
           <div className="container" key={index}>
             <div className="row">
               <div className="col-lg-12 mb--60">
-                <div className="section-title text-center">
+                {/* <div className="section-title text-center">
                   <span className="subtitle bg-primary-opacity">
                     {data.tag}
                   </span>
                   <h2 className="title">{data.title}</h2>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="row g-5">

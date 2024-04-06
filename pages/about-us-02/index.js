@@ -17,7 +17,7 @@ import TeamTen from "@/components/Team/TeamTen";
 import Separator from "@/components/Common/Separator";
 import Banner from "@/components/About-Us-02/Banner";
 import Video from "@/components/About-Us-02/Video";
-
+import ContactForm from "@/components/Contacts/Contact-Form";
 const AboutUsPageTwo = () => {
   return (
     <>
@@ -59,6 +59,7 @@ const AboutUsPageTwo = () => {
           <div className="rbt-brand-area bg-color-white rbt-section-gap">
             <BrandThree />
           </div>
+          <ContactForm/>
           <Separator />
           <BackToTop />
           <FooterOne />

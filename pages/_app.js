@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 import "bootstrap/scss/bootstrap.scss";
 import "../public/scss/default/euclid-circulara.scss";
-
+import "../styles/VideoCarousel.css"
 // ========= Plugins CSS START =========
 import "../node_modules/sal.js/dist/sal.css";
 import "../public/css/plugins/fontawesome.min.css";

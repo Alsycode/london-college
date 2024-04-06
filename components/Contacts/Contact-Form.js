@@ -1,7 +1,7 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import img from "../../public/images/about/contact.jpg";
-
+import SectionHead from "../../components/Button/ButtonProps/SectionHead"; // Import the SectionHead component
 const ContactForm = ({ gap }) => {
   return (
     <>
@@ -25,9 +25,9 @@ const ContactForm = ({ gap }) => {
                     EDUCATION FOR EVERYONE
                   </span>
                 </div>
-                <h3 className="title">
+                {/* <h3 className="title">
                   Get a Free Course You Can Contact With Me
-                </h3>
+                </h3> */}
                 <form
                   id="contact-form"
                   method="POST"
@@ -68,24 +68,17 @@ const ContactForm = ({ gap }) => {
                     ></textarea>
                     <span className="focus-border"></span>
                   </div>
-                  <div className="form-submit-group">
-                    <button
-                      name="submit"
-                      type="submit"
-                      id="submit"
-                      className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
-                    >
-                      <span className="icon-reverse-wrapper">
-                        <span className="btn-text">GET IT NOW</span>
-                        <span className="btn-icon">
-                          <i className="feather-arrow-right"></i>
-                        </span>
-                        <span className="btn-icon">
-                          <i className="feather-arrow-right"></i>
-                        </span>
-                      </span>
-                    </button>
-                  </div>
+                  <div className="row mt--50">
+              <div className="col-lg-12">
+                <div className="rbt-button-group">
+                  <Link className="rbt-moderbt-btn" href="#"
+                          >
+                             <span className="moderbt-btn-text">Submit Button</span>
+                            <i className="feather-arrow-right"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
                 </form>
               </div>
             </div>

@@ -4,30 +4,93 @@
       "title": "Worldclass placement programs",
       "brandLogo": [
         {
-          "img": "/images/brand/delhivery.jpg",
-          "width": 88,
-          "height": 50
+          "img": "/images/brand/delhi.jpg",
+          "width": 180,
+          "height": 180
         },
         {
-          "img": "/images/brand/dhl.jpg",
-          "width": 160,
-          "height": 50
+          "img": "/images/brand/buildnext.jpg",
+          "width": 150,
+          "height": 150
         },
         {
-          "img": "/images/brand/dtdc.jpg",
-          "width": 96,
-          "height": 50
+          "img": "/images/brand/cma.png",
+          "width": 180,
+          "height": 180
         },
         {
-          "img": "/images/brand/flipkart-logo.jpg",
-          "width": 160,
-          "height": 50
+          "img": "/images/brand/fedx.jpg",
+          "width": 180,
+          "height": 180
         },
         {
-          "img": "/images/brand/cosmos.jpg",
-          "width": 112,
-          "height": 50
+          "img": "/images/brand/aam.jpg",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "img": "/images/brand/abl.jpg",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "img": "/images/brand/agility.jpg",
+          "width": 180,
+          "height": 180
+        },{
+          "img": "/images/brand/amzn.jpg",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "img": "/images/brand/asian.jpg",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "img": "/images/brand/dt.jpg",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "img": "/images/brand/crest.jpg",
+          "width": 180,
+          "height": 180
         }
+        
+  
+      ]
+    }
+  ],
+  "brandOnehome": [
+    {
+      "title": "Worldclass placement programs",
+      "brandLogo": [
+        {
+          "img": "/images/brand/delhi.jpg",
+          "width": 180,
+          "height": 180
+        },
+      
+        {
+          "img": "/images/brand/cma.png",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "img": "/images/brand/fedx.jpg",
+          "width": 180,
+          "height": 180
+        },
+       
+      
+       {
+          "img": "/images/brand/amzn.jpg",
+          "width": 180,
+          "height": 180
+        }
+        
+  
       ]
     }
   ],

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,8 +8,15 @@ import CopyRight from "./CopyRight";
 
 import FooterData from "../../data/footer.json";
 import SingleFooter from "./FooterProps/SingleFooter";
+import SectionHead from "../../components/Button/ButtonProps/SectionHead"; // Import the SectionHead component
 
 const FooterOne = ({ bgColor }) => {
+  const [email, setEmail] = useState(""); // State to store the email input value
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value); // Update the email state when input value changes
+  };
+
   return (
     <>
       <footer
@@ -65,16 +73,11 @@ const FooterOne = ({ bgColor }) => {
                     </div>
                   </div>
 
-                   <SingleFooter
+                  <SingleFooter
                     classOne="col-lg-2 col-md-6 col-sm-6 col-12 mt--30"
                     title="Useful Links"
                     footerType={footer.usefulLinks}
                   />
-                  {/* <SingleFooter
-                    classOne="col-lg-2 col-md-6 col-sm-6 col-12"
-                    title="Our Company"
-                    footerType={footer.ourCompany}
-                  /> */}
 
                   <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="footer-widget">
@@ -87,7 +90,7 @@ const FooterOne = ({ bgColor }) => {
                         <li>
                           <span>E-mail:</span>{" "}
                           <Link href="mailto:hr@example.com">
-                          counsellor@londoncollege.in
+                            counsellor@londoncollege.in
                           </Link>
                         </li>
                       </ul>
@@ -102,17 +105,22 @@ const FooterOne = ({ bgColor }) => {
                             id="email"
                             type="email"
                             placeholder="Enter Your Email Here"
+                            value={email}
+                            onChange={handleEmailChange}
                           />
                         </div>
 
-                        <div className="form-group mb--0">
-                          <button
-                            className="rbt-btn rbt-switch-btn btn-gradient radius-round btn-sm"
-                            type="submit"
+                        <div className="row mt--50">
+              <div className="col-lg-12">
+                <div className="rbt-button-group">
+                  <Link className="rbt-moderbt-btn" href="#"
                           >
-                            <span data-text="Submit Now">Submit Now</span>
-                          </button>
-                        </div>
+                             <span className="moderbt-btn-text">Submit Button</span>
+                            <i className="feather-arrow-right"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
                       </form>
                     </div>
                   </div>
@@ -120,6 +128,9 @@ const FooterOne = ({ bgColor }) => {
               ))}
           </div>
         </div>
+
+        
+       
 
         <CopyRight />
       </footer>

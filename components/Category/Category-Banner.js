@@ -3,7 +3,7 @@ import Link from "next/link";
 const CategoryBanner = ({ category }) => {
   return (
     <>
-      <div className="rbt-banner-content-top">
+        <div className="rbt-banner-content-top" style={{ backgroundImage: 'url("/path/to/your/image.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="container">
           {category && (
             <div className="row">

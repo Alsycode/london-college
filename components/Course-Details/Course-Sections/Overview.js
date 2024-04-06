@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 const Overview = ({ checkMatchCourses }) => {
   const [toggle, setToggle] = useState(false);
-  const { title, desc, descTwo, overviewList } = checkMatchCourses;
-
+  const { title, desc, overviewList } = checkMatchCourses;
+  // const { title, desc, descTwo, overviewList } = checkMatchCourses;
   return (
     <>
       <div
@@ -41,7 +41,8 @@ const Overview = ({ checkMatchCourses }) => {
               </ul> */}
             </div>
           </div>
-          <p>{descTwo}</p>
+          {/* {descTwo && (  <p>{descTwo}</p>)} */}
+        
         </div>
         <div
           className={`rbt-show-more-btn ${toggle ? "active" : ""}`}

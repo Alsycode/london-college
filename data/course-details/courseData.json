@@ -10356,10 +10356,88 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Frontend", "Design"],
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many colleges and universities is growing, driven by the increased visibility of supply chain topics in recent headlines. More students, along with their parents, now understand the significance of supply chains. Unlike fields with established histories like accounting or finance, supply chain hasn't traditionally been a top choice recommended by parents. However, the pandemic has shifted perceptions, leading to a rise in interest among students. The value of strong supply chains has become apparent across various disciplines, with supply chain management modules attracting students from business, medicine, public health, and science and engineering backgrounds. Concepts like risk mitigation, resilience, and agility are gaining prominence, with students focusing on identifying and responding to risks. COVID-19 highlighted the importance of supply chain resilience, driving it to the forefront of research and teaching. Students now learn to navigate uncertainty and problem-solve in dynamic environments, preparing them for the complexities of the future."
+        }
+      ],
+      "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
+          ]
+        }
+      ],
+      "courseRequirement": [
+        {
+          "title": "Certificates",
+          "detailsList": [
+            {
+              "listItem": "Dual Advanced Diploma in 1) Logistics, Supply Chain & Retail management 2) International Shipping & Export Import Management 3) Certified by London College."
+            },
+            {
+              "listItem": "Advanced Diploma in Logistics & Supply Chain Management, Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
+            },
+            {
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
+            },
+           
+            {
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
+            }
+          ]
+        },
+        {
+          "title": "Affiliations",
+          "detailsList": [
+            {
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
+            },
+            {
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
+            },
+            {
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
+            },
+            {
+              "listItem": "Authorized training partner of ATHE, UK (Awards of Training and Higher Education)"
+            }
+          ]
+        }
+      ],
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
+          "title": "About Course",
+          "desc": "The Advanced Diploma in Logistics and Supply Chain Management is a skill-based program offered by London College and approved by the Logistics Sector Skill Council of the Government of India. This program adheres to national-level standards and is certified by the Logistics Sector Skill Council, which operates under the Ministry of Skill Development and Entrepreneurship. Upon completion of the program, students receive a dual Advanced Diploma Certification in Logistics and Supply Chain Management from London College India. Furthermore, graduates have the option to upgrade to the Post Graduate Diploma, an extensive skill-integrated management program. Completion of the PG Diploma results in a dual Post Graduate Diploma in Logistics and Supply Chain Management certificate from London College India.",
           "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
           "overviewList": [
             {
@@ -10639,42 +10717,7 @@
         }
       
       ],
-      "courseRequirement": [
-        {
-          "title": "Requirements",
-          "detailsList": [
-            {
-              "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
-            },
-            {
-              "listItem": "Have an intermediate skill level of Python programming."
-            },
-            {
-              "listItem": "Have a portfolio of various data analysis projects."
-            },
-            {
-              "listItem": "Use the numpy library to create and manipulate arrays."
-            }
-          ]
-        },
-        {
-          "title": "Description",
-          "detailsList": [
-            {
-              "listItem": "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
-            },
-            {
-              "listItem": "Use the pandas module with Python to create and structure data."
-            },
-            {
-              "listItem": "Have a portfolio of various data analysis projects."
-            },
-            {
-              "listItem": "Create data visualizations using matplotlib and the seaborn."
-            }
-          ]
-        }
-      ],
+      
       "courseInstructor": [
         {
           "title": "Instructor",
@@ -10934,10 +10977,88 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Design", "Backend"],
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many colleges and universities is growing, driven by the increased visibility of supply chain topics in recent headlines. More students, along with their parents, now understand the significance of supply chains. Unlike fields with established histories like accounting or finance, supply chain hasn't traditionally been a top choice recommended by parents. However, the pandemic has shifted perceptions, leading to a rise in interest among students. The value of strong supply chains has become apparent across various disciplines, with supply chain management modules attracting students from business, medicine, public health, and science and engineering backgrounds. Concepts like risk mitigation, resilience, and agility are gaining prominence, with students focusing on identifying and responding to risks. COVID-19 highlighted the importance of supply chain resilience, driving it to the forefront of research and teaching. Students now learn to navigate uncertainty and problem-solve in dynamic environments, preparing them for the complexities of the future."
+        }
+      ],
+      "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
+          ]
+        }
+      ],
+      "courseRequirement": [
+        {
+          "title": "Certificates",
+          "detailsList": [
+            {
+              "listItem": "Dual Advanced Diploma in 1) Logistics, Supply Chain & Retail management 2) International Shipping & Export Import Management 3) Certified by London College."
+            },
+            {
+              "listItem": "Advanced Diploma in Logistics & Supply Chain Management, Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
+            },
+            {
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
+            },
+           
+            {
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
+            }
+          ]
+        },
+        {
+          "title": "Affiliations",
+          "detailsList": [
+            {
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
+            },
+            {
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
+            },
+            {
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
+            },
+            {
+              "listItem": "Authorized training partner of ATHE, UK (Awards of Training and Higher Education)"
+            }
+          ]
+        }
+      ],
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
+          "title": "About Course",
+          "desc": "Diploma in Logistics and Supply Chain Management is a beginner’s skill program of London College approved by Logistics Sector Skill Council, Government of India. This program meets the National level standard of occupation and is certified by Logistics Sector Skill Council, an Initiative of the Ministry of Skill Development and Entrepreneurship, Govt. of India.",
           "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
           "overviewList": [
             {
@@ -11181,42 +11302,7 @@
           ]
         }
       ],
-      "courseRequirement": [
-        {
-          "title": "Requirements",
-          "detailsList": [
-            {
-              "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
-            },
-            {
-              "listItem": "Have an intermediate skill level of Python programming."
-            },
-            {
-              "listItem": "Have a portfolio of various data analysis projects."
-            },
-            {
-              "listItem": "Use the numpy library to create and manipulate arrays."
-            }
-          ]
-        },
-        {
-          "title": "Description",
-          "detailsList": [
-            {
-              "listItem": "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
-            },
-            {
-              "listItem": "Use the pandas module with Python to create and structure data."
-            },
-            {
-              "listItem": "Have a portfolio of various data analysis projects."
-            },
-            {
-              "listItem": "Create data visualizations using matplotlib and the seaborn."
-            }
-          ]
-        }
-      ],
+      
       "courseInstructor": [
         {
           "title": "Instructor",
@@ -11466,10 +11552,88 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Design", "Development"],
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many colleges and universities is growing, driven by the increased visibility of supply chain topics in recent headlines. More students, along with their parents, now understand the significance of supply chains. Unlike fields with established histories like accounting or finance, supply chain hasn't traditionally been a top choice recommended by parents. However, the pandemic has shifted perceptions, leading to a rise in interest among students. The value of strong supply chains has become apparent across various disciplines, with supply chain management modules attracting students from business, medicine, public health, and science and engineering backgrounds. Concepts like risk mitigation, resilience, and agility are gaining prominence, with students focusing on identifying and responding to risks. COVID-19 highlighted the importance of supply chain resilience, driving it to the forefront of research and teaching. Students now learn to navigate uncertainty and problem-solve in dynamic environments, preparing them for the complexities of the future."
+        }
+      ],
+      "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
+          ]
+        }
+      ],
+      "courseRequirement": [
+        {
+          "title": "Certificates",
+          "detailsList": [
+            {
+              "listItem": "Dual Advanced Diploma in 1) Logistics, Supply Chain & Retail management 2) International Shipping & Export Import Management 3) Certified by London College."
+            },
+            {
+              "listItem": "Advanced Diploma in Logistics & Supply Chain Management, Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
+            },
+            {
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
+            },
+           
+            {
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
+            }
+          ]
+        },
+        {
+          "title": "Affiliations",
+          "detailsList": [
+            {
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
+            },
+            {
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
+            },
+            {
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
+            },
+            {
+              "listItem": "Authorized training partner of ATHE, UK (Awards of Training and Higher Education)"
+            }
+          ]
+        }
+      ],
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
+          "title":"About Course",
+          "desc": "Bachelors in Business Administration + Logistics is a 3 year Core Skills based Advanced Diploma Integrated Graduation program that can lead to a wide range of excellent career opportunities. It offers a creative mix of academic study, skills development and practical training, giving the student the best possible platform for his/her career. Strong partnerships with industry ensure our curriculum is at par with emerging business needs. This course is aligned with SCM, Logistics, International Shipping & Retail Management which makes it the best in the industry.",
           "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
           "overviewList": [
             {
@@ -12003,10 +12167,88 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Python", "Development"],
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many colleges and universities is growing, driven by the increased visibility of supply chain topics in recent headlines. More students, along with their parents, now understand the significance of supply chains. Unlike fields with established histories like accounting or finance, supply chain hasn't traditionally been a top choice recommended by parents. However, the pandemic has shifted perceptions, leading to a rise in interest among students. The value of strong supply chains has become apparent across various disciplines, with supply chain management modules attracting students from business, medicine, public health, and science and engineering backgrounds. Concepts like risk mitigation, resilience, and agility are gaining prominence, with students focusing on identifying and responding to risks. COVID-19 highlighted the importance of supply chain resilience, driving it to the forefront of research and teaching. Students now learn to navigate uncertainty and problem-solve in dynamic environments, preparing them for the complexities of the future."
+        }
+      ],
+      "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
+          ]
+        }
+      ],
+      "courseRequirement": [
+        {
+          "title": "Certificates",
+          "detailsList": [
+            {
+              "listItem": "Dual Advanced Diploma in 1) Logistics, Supply Chain & Retail management 2) International Shipping & Export Import Management 3) Certified by London College."
+            },
+            {
+              "listItem": "Advanced Diploma in Logistics & Supply Chain Management, Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
+            },
+            {
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
+            },
+           
+            {
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
+            }
+          ]
+        },
+        {
+          "title": "Affiliations",
+          "detailsList": [
+            {
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
+            },
+            {
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
+            },
+            {
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
+            },
+            {
+              "listItem": "Authorized training partner of ATHE, UK (Awards of Training and Higher Education)"
+            }
+          ]
+        }
+      ],
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
+          "title": "About Course",
+          "desc": "This programme is a 3 year Core Skills based Advanced Diploma Integrated Graduation program. It is a career launching qualification preparing the student to take a leading place in today’s global economy. Our courses, developed alongside leading professional bodies and taught by lecturers with strong industry links and experience, will bring the student face-to-face with current trends, practices and concepts across the fields of accounting, business, economics & finance aligned with SCM, Logistics, and International Shipping & Retail Management . This will mould students to place them suitably in the market and help them work towards achieving professional recognition.",
           "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
           "overviewList": [
             {
@@ -12250,42 +12492,7 @@
           ]
         }
       ],
-      "courseRequirement": [
-        {
-          "title": "Requirements",
-          "detailsList": [
-            {
-              "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
-            },
-            {
-              "listItem": "Have an intermediate skill level of Python programming."
-            },
-            {
-              "listItem": "Have a portfolio of various data analysis projects."
-            },
-            {
-              "listItem": "Use the numpy library to create and manipulate arrays."
-            }
-          ]
-        },
-        {
-          "title": "Description",
-          "detailsList": [
-            {
-              "listItem": "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
-            },
-            {
-              "listItem": "Use the pandas module with Python to create and structure data."
-            },
-            {
-              "listItem": "Have a portfolio of various data analysis projects."
-            },
-            {
-              "listItem": "Create data visualizations using matplotlib and the seaborn."
-            }
-          ]
-        }
-      ],
+     
       "courseInstructor": [
         {
           "title": "Instructor",
@@ -12509,9 +12716,10 @@
     },
     {
       "id": 18,
-      "courseTitle": "Five Things You Should Do In Education.",
+      "courseTitle": "Online ADVANCED DIPLOMA in Logistics & Supply Chain Management",
       "category": "Finance & Accounting",
       "courseType": "popular",
+      "shortDescription":"The Advanced Diploma in Logistics and Supply Chain Management offered by London College is a skill-based program approved by the Logistics Sector Skill Council, Government of India. This program adheres to national-level standards of occupation and is certified by the Logistics Sector Skill Council, an initiative of the Ministry of Skill Development and Entrepreneurship, Government of India. Students who successfully complete this program receive a dual Advanced Diploma Certification in Logistics and Supply Chain Management from London College India. Furthermore, graduates have the option to upgrade their qualification to a Post Graduate Diploma, which is an extensive skill-integrated management program. Upon completion of the PG Diploma, students are awarded a dual Post Graduate Diploma in Logistics and Supply Chain Management certificate from London College India.",
       "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
       "lesson": 12,
       "review": 15,
@@ -12537,10 +12745,86 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Frontend", "Python"],
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many colleges and universities is on the rise, a positive outcome of the heightened attention given to supply chains in the past year. More students, and importantly their parents, now have a clearer understanding of what a supply chain entails. Unlike fields such as accounting or finance, supply chain management hasn't historically been a popular career choice recommended by parents. However, the pandemic has shifted this perception, leading to increased interest in supply chain programs. Students from various disciplines, including business, medicine, public health, and science and engineering, are drawn to supply chain and operations modules, particularly those related to the health and medical devices sector, since 2017. Concepts like risk mitigation, resilience, and agility are gaining importance in supply chain education, requiring students to focus on identifying, assessing, and responding to risks, as well as developing supply chain talent strategies. Although the necessity for supply chain professionals to prepare for disruptive events has long been discussed in academia, the tangible benefits of doing so, such as mitigating inventory costs, have not been as evident until events like the COVID-19 pandemic. Supply chain resilience is now a crucial aspect of both research and teaching, emphasizing the importance of redundancy and flexibility within supply chains. The pandemic has underscored the uncertainty of the world and the need for future supply chain professionals to sharpen their problem-solving skills in ambiguous and challenging situations. Despite the difficulties, this environment fosters adaptability and resilience, crucial traits for success in an ever-changing landscape."
+        }
+      ],
+      "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
+          ]
+        }
+      ],
+      "courseRequirement": [
+        {
+          "title": "Certificates",
+          "detailsList": [
+            {
+              "listItem": "Dual Advanced Diploma in 1) Logistics, Supply Chain & Retail management 2) International Shipping & Export Import Management 3) Certified by London College."
+            },
+            {
+              "listItem": "Advanced Diploma in Logistics & Supply Chain Management, Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
+            },
+            {
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
+            },
+           
+            {
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
+            }
+          ]
+        },
+        {
+          "title": "Affiliations",
+          "detailsList": [
+            {
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
+            },
+            {
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
+            },
+            {
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
+            }
+           
+          ]
+        }
+      ],
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
+          "title": "About Course",
+          "desc": "Advanced Diploma in Logistics and Supply Chain Management is a core skill based program of London College approved by Logistics Sector Skill Council, Govt. of India. This program meets the National level standard of occupation and is certified by Logistics Sector Skill Council, an Initiative of the Ministry of Skill Development and Entrepreneurship , Govt. of India. Students who complete this program get a dual Advanced Diploma Certification in Logistics and Supply Chain Management from London College India .Advanced Diploma can be upgraded to Post Graduate Diploma which is an extensive skill integrated management programme. Upon completion of PG Diploma, student gets a dual Post Graduate Diploma in Logistics and Supply Chain Management certificate from London College India.",
           "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
           "overviewList": [
             {
@@ -13043,8 +13327,8 @@
     },
    
     {
-      "id": 20,
-      "courseTitle": "Five Things You Should Do In Education.",
+      "id": 19,
+      "courseTitle": "Online DIPLOMA in Logistics & Supply Chain Management",
       "category": "Graphic Design",
       "courseType": "popular",
       "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
@@ -13063,7 +13347,7 @@
       "userImg": "/images/client/avatar-04.png",
       "cateSmallImg": "/images/category/infographic.png",
       "cateBigImg": "/images/category/image/finance.jpg",
-      "courseImg": "/images/course/course-list-02.jpg",
+      "courseImg": "/images/course/course-list-07.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -13072,10 +13356,86 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Backend", "Frontend"],
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many colleges and universities is on the rise, a positive outcome of the heightened attention given to supply chains in the past year. More students, and importantly their parents, now have a clearer understanding of what a supply chain entails. Unlike fields such as accounting or finance, supply chain management hasn't historically been a popular career choice recommended by parents. However, the pandemic has shifted this perception, leading to increased interest in supply chain programs. Students from various disciplines, including business, medicine, public health, and science and engineering, are drawn to supply chain and operations modules, particularly those related to the health and medical devices sector, since 2017. Concepts like risk mitigation, resilience, and agility are gaining importance in supply chain education, requiring students to focus on identifying, assessing, and responding to risks, as well as developing supply chain talent strategies. Although the necessity for supply chain professionals to prepare for disruptive events has long been discussed in academia, the tangible benefits of doing so, such as mitigating inventory costs, have not been as evident until events like the COVID-19 pandemic. Supply chain resilience is now a crucial aspect of both research and teaching, emphasizing the importance of redundancy and flexibility within supply chains. The pandemic has underscored the uncertainty of the world and the need for future supply chain professionals to sharpen their problem-solving skills in ambiguous and challenging situations. Despite the difficulties, this environment fosters adaptability and resilience, crucial traits for success in an ever-changing landscape."
+        }
+      ],
+      "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
+          ]
+        }
+      ],
+      "courseRequirement": [
+        {
+          "title": "Certificates",
+          "detailsList": [
+            {
+              "listItem": "Dual Advanced Diploma in 1) Logistics, Supply Chain & Retail management 2) International Shipping & Export Import Management 3) Certified by London College."
+            },
+            {
+              "listItem": "Advanced Diploma in Logistics & Supply Chain Management, Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
+            },
+            {
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
+            },
+           
+            {
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
+            }
+          ]
+        },
+        {
+          "title": "Affiliations",
+          "detailsList": [
+            {
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
+            },
+            {
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
+            },
+            {
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
+            }
+           
+          ]
+        }
+      ],
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
+          "title": "About Course",
+          "desc": "Diploma in Logistics and Supply Chain Management is a beginner’s skill program of London College approved by Logistics Sector Skill Council, Government of India. This program meets the National level standard of occupation and is certified by Logistics Sector Skill Council, an Initiative of the Ministry of Skill Development and Entrepreneurship, Govt. of India.",
           "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
           "overviewList": [
             {
@@ -13580,8 +13940,8 @@
       ]
     },
     {
-      "id": 21,
-      "courseTitle": "Five Things You Should Do In Education.",
+      "id": 20,
+      "courseTitle": "Online POST GRADUATE DIPLOMA in Logistics & Supply Chain Management",
       "category": "Personal Development",
       "courseType": "latest",
       "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
@@ -13600,7 +13960,7 @@
       "cateSmallImg": "/images/category/web-design.png",
       "cateBigImg": "/images/category/image/web-design.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-06.jpg",
+      "courseImg": "/images/course/course-list-08.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -13609,11 +13969,16 @@
       "language": "English",
       "courseAward": "Certified Course",
       "courseFor": ["Design", "Development"],
+      "aboutIndustry": [
+        {
+          "title": "About Industry",
+          "description": "The interest in supply chain programs at many Colleges & Universities is growing, one positive by-product of the degree to which the subject of supply chains captured headlines during the past year. More students—and as important, their parents—now know what a supply chain is.Supply chain doesn’t have a history like accounting or finance. You don’t have parents telling their kids to go into supply chain. The pandemic has changed that and programs are noticing an uptick in interest.The value of strong supply chains has also become apparent to students in a range of disciplines. Since 2017, supply chain and operations a module in supply chain management in the health and medical devices sector. It attracts students from a range of disciplines within the Institutions, including business, medicine, public health, and science and engineering.The concepts of risk mitigation, resilience, and agility, while always important, are gaining prominence. Supply chain students will spend more time identifying, assessing, and responding to risk, supply chain talent strategies. While many in academia have been discussing the need for supply chain professionals to prepare for disruptive events, whether a natural disaster or pandemic, the benefits of doing so aren’t as easy to quantify as, for instance, cutting inventory costs. COVID-19 may change that.Supply chain resilience has also become an increasingly integral part of research and teaching. In teaching, this would be covered as a function of the level of redundancy and flexibility that can be built into the supply chain through choices made by policy and/or decision-makers.The pandemic also hammered home how uncertain the world is, and how future supply chain professionals need to hone their ability to solve problems even amidst uncertainty. It’s more ambiguous and tough on students. But it helps students learn to thrive in a changing environment."
+        }
+      ],
       "courseOverview": [
         {
-          "title": "What you'll learn",
-          "desc": "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world.",
-          "descTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam voluptas laudantium incidunt architecto nam excepturi provident rem laborum repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus pariatur et consectetur. Error vero, eum soluta delectus necessitatibus eligendi numquam hic at?",
+          "title": "About Course",
+          "desc": "Delivering skills integrated management program at affordable prices and excellent quality to fit the right candidate to the right job, consistently and reliably.Post Graduate Diploma in Supply chain management is an extensive advanced skills integrated management program in Supply Chain Management, Logistics, International Shipping, Export & Import and Retail Management. It is a dual certification program offered by London College. A program par excellence because it helps the students to gain a complete real-life experience of Supply chain and Logistics sector thus transforming the students into real supply chain professionals. Delivery of the Course curriculum is further enhanced by Industrial visit and Industrial Institute Interface sessions, a specialised training from industry experts imparting their vast experience to our students. Students who complete this program get a dual Post Graduate Diploma in Logistics and Supply Chain Management from London College India.They are also eligible to enrol for CPSCM from IPSCM – India of Institute for Supply Management India, an affiliate of ISM -USA.",
           "overviewList": [
             {
               "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
@@ -13858,37 +14223,72 @@
       ],
       "courseRequirement": [
         {
-          "title": "Requirements",
+          "title": "Certificates",
           "detailsList": [
             {
-              "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
+              "listItem": "Dual Advanced Diploma in 1) Logistics, Supply Chain & Retail management 2) International Shipping & Export Import Management 3) Certified by London College."
             },
             {
-              "listItem": "Have an intermediate skill level of Python programming."
+              "listItem": "Advanced Diploma in Logistics & Supply Chain Management, Certified by Logistics Sector Skill Council, (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India)"
             },
             {
-              "listItem": "Have a portfolio of various data analysis projects."
+              "listItem": "Soft Skill (Personality Development – Grooming – English Communication Skills) training Certified by Career Development Council of AMS"
             },
+           
             {
-              "listItem": "Use the numpy library to create and manipulate arrays."
+              "listItem": "SAP certification awarded by WHRDE (World Human Recourse Development Education)"
             }
           ]
         },
         {
-          "title": "Description",
+          "title": "Affiliations",
           "detailsList": [
             {
-              "listItem": "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
+              "listItem": "London College is The only Logistics Sector Skill Council (Initiative of the Ministry of Skill Development & Entrepreneurship Government of India) Affiliated College in Kerala"
             },
             {
-              "listItem": "Use the pandas module with Python to create and structure data."
+              "listItem": "London College was the Only Knowledge Partner of ISM – INDIA (An Affiliate of ISM-USA) for supply chain management courses."
             },
             {
-              "listItem": "Have a portfolio of various data analysis projects."
+              "listItem": "London College was the First & Only “Centre of Excellence” of Confederation of Indian Industry – Institute of Logistics in Kerala"
             },
             {
-              "listItem": "Create data visualizations using matplotlib and the seaborn."
+              "listItem": "Authorized training partner of ATHE, UK (Awards of Training and Higher Education)"
             }
+          ]
+        }
+      ], "DeliveryAndBenefit": [
+        {
+          "title": "Online Class",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"},
+            {"listItem": "Weekend batch (Saturday & Sunday) – 5 hrs/day"}
+          ]
+        },
+        {
+          "title": "OFFLINE CLASS",
+          "list": [
+            {"listItem": "Duration – 1 year"},
+            {"listItem": "Regular batch – 3 hrs/day – 5 days a week"}
+          ]
+        },
+        {
+          "title": "Course Benefit",
+          "list": [
+            {"listItem": "Eminent Panel of Academicians"},
+            {"listItem": "Updated Curriculum"},
+            {"listItem": "Industrial Interactive Sessions"},
+            {"listItem": "Live Classes from Industry Experienced Faculties"},
+            {"listItem": "Virtual Classroom with advanced Technologies"},
+            {"listItem": "Industrial Oriented Video Sessions"},
+            {"listItem": "Case Studies – Discussion Forum – Webinars – Chat Box"},
+            {"listItem": "Online Assessment for each Student"},
+            {"listItem": "Study Material"},
+            {"listItem": "IT Training"},
+            {"listItem": "Certificate from Logistics Skill Council – Ministry of Skill Development India"},
+            {"listItem": "Placement Assistance -PD Skills, Communication & Interview Skills"},
+            {"listItem": "5 Assured Interviews"}
           ]
         }
       ],

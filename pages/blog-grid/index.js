@@ -14,7 +14,7 @@ import BackToTop from "../backToTop";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import { useAppContext } from "@/context/Context";
-
+import ContactForm from "@/components/Contacts/Contact-Form";
 const BlogGridLayout = ({ updateData }) => {  
   const [data, setData ] = useState();
 
@@ -48,6 +48,7 @@ const BlogGridLayout = ({ updateData }) => {
               <BlogGrid updateData={updateData} isPagination={true} top={true} start={0} end={8} />
             </div>
           </div>
+<ContactForm/>
           <BackToTop />
           <Separator />
           <FooterOne />

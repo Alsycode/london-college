@@ -476,6 +476,33 @@ const Nav = () => {
             <i ></i>
           </Link>
           </li>
+          <li className="with-megamenu position-static">
+          <Link
+            href="/admissions"
+           
+          >
+            Admissions
+            <i ></i>
+          </Link>
+          </li>
+          <li className="with-megamenu position-static">
+          <Link
+            href="/testimonialpage"
+           
+          >
+            Testimonials
+            <i ></i>
+          </Link>
+          </li>
+          <li className="with-megamenu position-static">
+          <Link
+            href="/pages/faqs"
+           
+          >
+            Faq
+            <i ></i>
+          </Link>
+          </li>
       </ul>
     </nav>
   );

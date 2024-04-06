@@ -19,12 +19,14 @@ const BrandOne = () => {
                 {data.brandLogo.map((item, innerIndex) => (
                   <li key={innerIndex}>
                     <Link href="#">
-                      <Image
-                        src={item.img}
-                        width={item.width}
-                        height={item.height}
-                        alt="Brand Image"
-                      />
+                      <div className="responsive-image-container">
+                        <Image
+                          src={item.img}
+                          width={160}
+                          height={160}
+                          alt="Brand Image"
+                        />
+                      </div>
                     </Link>
                   </li>
                 ))}
